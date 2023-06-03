@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        chunks: ['main'],
+        title: "Text Editor"
       }),
       new WebpackPwaManifest({
         fingerprints: false,
